@@ -47,7 +47,7 @@ animations = [{
 [sub_resource type="CircleShape2D" id="CircleShape2D_fla60"]
 radius = 43.046486
 
-[node name="Mob" type="RigidBody2D"]
+[node name="Mob" type="RigidBody2D" groups=["mobs"]]
 collision_mask = 0
 gravity_scale = 0.0
 script = ExtResource("1_ebxvl")

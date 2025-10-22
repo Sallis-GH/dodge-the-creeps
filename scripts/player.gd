@@ -11,7 +11,7 @@ func _ready():
 	screen_size = get_viewport_rect().size
 	_recenter_label()
 	label.resized.connect(_recenter_label)      
-	hide()     # width changes
+	hide()
 
 func _process(delta: float) -> void:
 	var velocity = Vector2.ZERO
